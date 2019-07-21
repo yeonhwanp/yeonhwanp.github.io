@@ -11,6 +11,10 @@ img {
     max-height: 100%;
 }
 
+hr {
+  width: 70%;
+}
+
 .center-element {
     margin: 0 auto;
     top: 50%;
@@ -24,6 +28,7 @@ img {
     box-sizing: border-box;
     width: 1000px;
     height: 500px;
+    transform: translate(-50%, -40%);
     //background: red;
 }
 
@@ -51,6 +56,6 @@ img {
     display: inline-block;
     width: 100px;
     height: 100px;
-    margin: 0px 50px;
+    margin: 30px 10px;
     // background-color: blue;
 }
