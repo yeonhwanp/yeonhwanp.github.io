@@ -2,6 +2,17 @@
     font-family: freight-big-books;
     src: url(fonts/freight-big-book.otf)
 }
+
+@font-face {
+    font-family: freight-sans-light;
+    src: url(fonts/freight-sans-light.otf)
+}
+
+@font-face {
+    font-family: freight-sans-book;
+    src: url(fonts/freight-sans-book.otf)
+}
+
 body {
     background-color: #F8F8FF;
 }
@@ -44,6 +55,7 @@ hr {
 
 #desc {
     display:inline-block;
+    font-family: "freight-sans-light";
     text-align: center;
     font-size: 30px;
     margin: 15px 10px;
